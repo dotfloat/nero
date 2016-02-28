@@ -4,4 +4,23 @@ lib = File.expand_path('../../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 require 'nero'
+require 'stringio'
 
+p = Nero::Process.new '/usr/bin/env irb'
+@b = StringIO.new
+
+Signal.trap('SIGINT') { puts ">> #{p.buffer.string}" }
+
+def fill_buffer
+  @b.string = @b.string[@b.tell..-1]
+  @b << STDIN.read_nonblock(4096)
+  @b.rewind
+rescue IO::WaitReadable
+end
+
+while p.open?
+  p.readlines.each { |l| puts l }
+
+  fill_buffer
+  @b.readlines.each { |l| p.puts(l) }
+end
