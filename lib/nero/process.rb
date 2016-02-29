@@ -1,16 +1,13 @@
 require 'pty'
 require 'stringio'
-require 'forwardable'
 require 'io/console'
 
 module Nero
   class Process
-    extend Forwardable
-
     attr_accessor :shell_prompt
 
     def initialize(*args, **opts)
-      @pty_r, @pty_w, @pty_pid = PTY.spawn(*args)
+      @pty_r, @pty_w, @pid = PTY.spawn(*args)
       @buffer = StringIO.new
       @shell_prompt = ''
 
@@ -18,51 +15,77 @@ module Nero
       @pty_w.echo = false
     end
 
+    def pid
+      return unless @pid
+
+      if PTY.check(@pid)
+        @pty_r = @pty_w = @pid = nil
+      end
+
+      @pid
+    end
+
     def open?
-      PTY.check(pty_pid).nil?
+      !pid.nil?
     end
 
     def close
-      return unless pty_pid
+      return unless pid
 
-      ::Process.kill('TERM', pty_pid)
-      @pty_r = @pty_w = @pty_pid = nil
+      ::Process.kill('TERM', pid)
+      @pty_r = @pty_w = @pid = nil
     end
 
-    def read(n)
-      fill_buffer
-      buffer.read(n)
+    def puts(*args)
+      return unless pty_w
+
+      pty_w.puts(*args)
     end
 
     def readline
       fill_buffer
-      line = buffer.gets&.chomp
+      line = buffer.gets
 
-      if shell_prompt && line
-        mlen = line.match(shell_prompt).to_s.length
-        line = line[mlen..-1]
-        line = nil if line.empty?
+      return unless line
+
+      unless line.end_with? $/ # Check that the line is complete
+        buffer.seek(-line.length, IO::SEEK_CUR)
+        return
       end
+
+      line.chomp!
+      line.sub!(shell_prompt, '') if shell_prompt
 
       line
     end
 
     def readlines
       fill_buffer
-      buffer.readlines.map(&:chomp)
-    end
+      lines = buffer.readlines
 
-    def_delegators :pty_w, :puts, :write
+      return [] if lines.empty?
+
+      unless lines.last.end_with? $/
+        buffer.seek(-lines.last.length, IO::SEEK_CUR)
+        lines.pop
+      end
+
+      lines.map(&:chomp)
+    end
 
     alias_method :gets, :readline
     attr :buffer
 
     private
 
-    attr :pty_r, :pty_w, :pty_pid
+    attr :pty_r, :pty_w
 
     def fill_buffer
-      buffer.string = buffer.string[buffer.tell..-1]
+      return unless pty_r
+
+      pos = buffer.tell
+      buffer.string = buffer.string[pos..-1]
+      buffer.seek(0, IO::SEEK_END)
       buffer << pty_r.read_nonblock(4096)
     rescue IO::WaitReadable
     ensure

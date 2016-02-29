@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e718a5b-6f2a-4c68-9c11-cc0d8cc279cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/nero/process.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/nero/process/basic_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/nero/process/irb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nero_for_reals.iml" afterPath="$PROJECT_DIR$/.idea/nero_for_reals.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exe/neroctl" afterPath="$PROJECT_DIR$/exe/neroctl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/nero.rb" afterPath="$PROJECT_DIR$/lib/nero.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/nero/process.rb" afterPath="$PROJECT_DIR$/lib/nero/process.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/nero/process/irb_spec.rb" afterPath="$PROJECT_DIR$/spec/nero/process/irb_spec.rb" />
     </list>
     <ignored path="nero_for_reals.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +19,10 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/nero_for_reals@Nero__Protocol_Message_Passing_read_with_valid_message__nero_for_reals.coverage" NAME="Nero::Protocol Message Passing read with valid message: nero_for_reals Coverage Results" MODIFIED="1455812170608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="nero_for_reals" />
-    <SUITE FILE_PATH="coverage/nero_for_reals@Client.coverage" NAME="Client Coverage Results" MODIFIED="1456683551521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="nero_for_reals" />
+    <SUITE FILE_PATH="coverage/nero_for_reals@Client.coverage" NAME="Client Coverage Results" MODIFIED="1456759759476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="nero_for_reals" />
     <SUITE FILE_PATH="coverage/nero_for_reals@Nero__Protocol_Message_Passing_read_with_valid_header_but_partial_message__nero_for_reals.coverage" NAME="Nero::Protocol Message Passing read with valid header but partial message: nero_for_reals Coverage Results" MODIFIED="1455807635404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="nero_for_reals" />
     <SUITE FILE_PATH="coverage/nero_for_reals@Nero__Protocol_Message_Passing_read_with_partial_header__nero_for_reals.coverage" NAME="Nero::Protocol Message Passing read with partial header: nero_for_reals Coverage Results" MODIFIED="1455807697466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="nero_for_reals" />
-    <SUITE FILE_PATH="coverage/nero_for_reals@Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1456701628541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="nero_for_reals" />
+    <SUITE FILE_PATH="coverage/nero_for_reals@Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1456761091959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="nero_for_reals" />
     <SUITE FILE_PATH="coverage/nero_for_reals@Nero__Protocol_Message_Passing_read_message_in_two_parts__nero_for_reals.coverage" NAME="Nero::Protocol Message Passing read message in two parts: nero_for_reals Coverage Results" MODIFIED="1455811984073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="nero_for_reals" />
     <SUITE FILE_PATH="coverage/nero_for_reals@Nero__Protocol_Message_Passing_read_header_with_invalid_typeid__nero_for_reals.coverage" NAME="Nero::Protocol Message Passing read header with invalid typeid: nero_for_reals Coverage Results" MODIFIED="1455972796047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="nero_for_reals" />
   </component>
@@ -40,16 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="types.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/nero/protocol/types.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="93" column="3" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,8 +48,18 @@
       <file leaf-file-name="process.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/nero/process.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+            <state relative-caret-position="337">
+              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="protocol.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/nero/protocol.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -83,7 +78,7 @@
       <file leaf-file-name="error_handling_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/nero/protocol/error_handling_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-302">
+            <state relative-caret-position="952">
               <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
               <folding />
             </state>
@@ -103,8 +98,8 @@
       <file leaf-file-name="basic_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/nero/process/basic_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -113,8 +108,8 @@
       <file leaf-file-name="irb_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/nero/process/irb_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="595">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -219,7 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -380,7 +375,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,38 +614,44 @@
       <option name="project" value="LOCAL" />
       <updated>1456486305233</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Nero::Process">
+      <created>1456701668835</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1456701668835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2016.02.29 at 00h 06m 34s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 39m 20s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 10m 39s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 39m 47s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 11m 56s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 41m 14s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 12m 45s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 41m 29s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 12m 57s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 44m 18s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 15m 52s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 44m 44s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 19m 34s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 47m 23s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 19m 52s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 49m 54s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 20m 22s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 50m 50s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.29 at 00h 20m 30s.xml">
+    <history-entry file="Tests - 2016.02.29 at 16h 51m 38s.xml">
       <configuration name="Tests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
@@ -667,12 +668,12 @@
     <frame x="65" y="-3" width="1855" height="1083" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18227147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18448754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25105485" sideWeight="0.51075566" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24156117" sideWeight="0.48924434" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24156117" sideWeight="0.48924434" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -701,7 +702,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Split Nero::Protocol" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split Nero::Protocol" />
+    <MESSAGE value="Add Nero::Process" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Nero::Process" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="2" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/nero/protocol.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/nero/protocol/handler.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
@@ -988,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,6 +988,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nero/protocol/types.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="3" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/nero/protocol/error_handling_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1016,34 +1032,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/nero/protocol/types.rb">
+    <entry file="file://$PROJECT_DIR$/spec/nero/process/basic_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="93" column="3" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/nero/protocol/type_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/nero/protocol/error_handling_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1056,26 +1048,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/nero/process/basic_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/nero/protocol/type_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nero/protocol.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/nero/process.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        <state relative-caret-position="337">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/nero/process/irb_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="595">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
           <folding />
         </state>
       </provider>
